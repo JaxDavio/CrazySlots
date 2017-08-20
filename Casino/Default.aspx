@@ -13,7 +13,7 @@
         <asp:Image ID="Image3" runat="server" Height="150px" Width="150px" />
         <p>
             Your Bet:
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <asp:TextBox ID="betTextBox" runat="server"></asp:TextBox>
         </p>
         <p>
             <asp:Button ID="pullButton" runat="server" Text="Pull The Lever!!!" OnClick="pullButton_Click" />
