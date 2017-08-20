@@ -17,6 +17,8 @@ namespace Casino
             {
                 string[] reels = new string[] { spinReel(), spinReel(), spinReel() };
                 displayImages(reels);
+                ViewState.Add("PlayersMoney", 100);
+                displayPlayersMoney();
             }
         }
 
@@ -24,16 +26,19 @@ namespace Casino
         {
             int bet = 0;
             if (!int.TryParse(betTextBox.Text, out bet)) return;
+
             int winnings = pullLever(bet);
             displayResult(bet, winnings);
+            adjustPlayersMoney(bet, winnings);
+            displayPlayersMoney();
         }
 
-        private void displayResult(int bet, int winnings)
+        private void adjustPlayersMoney(int bet, int winnings)
         {
-            if (winnings > 0)
-                resultLabel.Text = String.Format("You bet {0:C} and won {1:C}!", bet, winnings);
-            else
-                resultLabel.Text = String.Format("Sorry, you lost {0:C}. Better luck next time!", bet);
+            int playersMoney = int.Parse(ViewState["PlayersMoney"].ToString());
+            playersMoney -= bet;
+            playersMoney += winnings;
+            ViewState["PlayersMoney"] = playersMoney;
         }
 
         private int pullLever(int bet)
@@ -95,6 +100,12 @@ namespace Casino
                 return false;
         }
 
+        private string spinReel()
+        {
+            string[] images = new string[] { "Bananas", "Bar", "Bell", "Cherry", "Clover", "Diamond", "Grapes", "Horseshoe", "Plum", "Seven", "Watermelon" };
+            return images[random.Next(11)];
+        }
+
         private void displayImages(string[] reels)
         {
             Image1.ImageUrl = "/Images/" + reels[0] + ".png";
@@ -102,10 +113,18 @@ namespace Casino
             Image3.ImageUrl = "/Images/" + reels[2] + ".png";
         }
 
-        private string spinReel()
+        private void displayPlayersMoney()
         {
-            string[] images = new string[] { "Bananas", "Bar", "Bell", "Cherry", "Clover", "Diamond", "Grapes", "Horseshoe", "Plum", "Seven", "Watermelon" };
-            return images[random.Next(11)];
+            moneyLabel.Text = String.Format("Player's Money: {0:C}", ViewState["PlayersMoney"]);
         }
+
+        private void displayResult(int bet, int winnings)
+        {
+            if (winnings > 0)
+                resultLabel.Text = String.Format("You bet {0:C} and won {1:C}!", bet, winnings);
+            else
+                resultLabel.Text = String.Format("Sorry, you lost {0:C}. Better luck next time!", bet);
+        }
+
     }
 }
