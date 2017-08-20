@@ -65,6 +65,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Bar.png" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -78,7 +79,6 @@
     <Content Include="Global.asax" />
     <Content Include="Images\Seven.png" />
     <Content Include="Images\Bananas.png" />
-    <Content Include="Images\Bar.png" />
     <Content Include="Images\Bell.png" />
     <Content Include="Images\Cherry.png" />
     <Content Include="Images\Clover.png" />

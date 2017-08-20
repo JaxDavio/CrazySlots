@@ -66,3 +66,37 @@ C:\Users\Student\Documents\GitHub\CrazySlots\Casino\bin\Casino.dll
 C:\Users\Student\Documents\GitHub\CrazySlots\Casino\bin\Casino.pdb
 C:\Users\Student\Documents\GitHub\CrazySlots\Casino\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Student\Documents\GitHub\CrazySlots\Casino\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\csc.exe
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\csc.exe.config
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\csc.rsp
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\csi.exe
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\csi.rsp
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\System.AppContext.dll
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\vbc.exe
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\vbc.exe.config
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\vbc.rsp
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\VBCSCompiler.exe
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\Casino.dll.config
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\Casino.dll
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\Casino.pdb
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\obj\Debug\Casino.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\obj\Debug\Casino.dll
+C:\Users\Student\Desktop\CasinoDemo\CrazySlots (step 2)\Casino\obj\Debug\Casino.pdb
