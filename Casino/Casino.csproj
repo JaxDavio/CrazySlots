@@ -65,7 +65,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\777.jpeg" />
     <Content Include="Images\Bar.png" />
+    <Content Include="Images\Casino.gif" />
+    <Content Include="Images\Slots.gif" />
+    <Content Include="Images\Win.jpeg" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -87,6 +91,7 @@
     <Content Include="Images\Horseshoe.png" />
     <Content Include="Images\Plum.png" />
     <Content Include="Images\Watermelon.png" />
+    <Content Include="Slots.mp3" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
