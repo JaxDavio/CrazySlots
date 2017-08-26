@@ -34,8 +34,6 @@
         <p class="auto-style1">
             <asp:Label ID="moneyLabel" runat="server"></asp:Label>
         </p>
-            <p class="auto-style1">
-                &nbsp;</p>
         <p class="auto-style1">
             1,2,3 CHERRY - 2x,3x,4x YOUR BET
             </p>

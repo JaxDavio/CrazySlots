@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Media;
+
 
 namespace Casino
 {
@@ -24,6 +26,8 @@ namespace Casino
 
         protected void pullButton_Click(object sender, EventArgs e)
         {
+            playAudio();
+
             int bet = 0;
             if (!int.TryParse(betTextBox.Text, out bet)) return;
 
@@ -31,6 +35,12 @@ namespace Casino
             displayResult(bet, winnings);
             adjustPlayersMoney(bet, winnings);
             displayPlayersMoney();
+        }
+
+        private void playAudio()
+        {
+            SoundPlayer audio = new SoundPlayer(Properties.Resources.Slots);
+            audio.Play();
         }
 
         private void adjustPlayersMoney(int bet, int winnings)
